@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using diff definitly makes life easier. As the first example showed, even in a small file, finding some error like a typo can be very dificult for a human because all the code works as clutter. Using diff allows the user to focus only on what was actually changed. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    In my opinion, let you think about significant changes without worring too much about breaking the project that you are working one and that may lead to more profound and meaninful improvements to the project. 
+    The other aspect is that you don't need to deal with tons of mannualy assigned file names clutering the your workspace.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The main downside of manually choosing when to commit, is to allow for human error (forgetting), specially if the programer is not used to it. The advantage is that when a user really decides to create a commit it is more likely to create a meaninful change that he will likely remember. The association of a meaning to a given commit is specially important when you think about breaking down a complex task into small steps.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think that this is mostly usefull because git is mostly directed to programmers. In this case, a developer's task might be broke down into several steps and each of these steps might require the programer to work on several files, so it make sense to associate the changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log I can see what were the commits associated to their meaninfull messages. By inspecting the history of message, I can select the appropriate points for instance to debug some change that I ahev added to the code.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Basically because you can check all the history of commits and you can revert to a previous state very easily.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try git mostly to be abble to contribute to some projets available at github. Up to now, I am not very confortable and I am always affriad that I might be doing something wrong.
